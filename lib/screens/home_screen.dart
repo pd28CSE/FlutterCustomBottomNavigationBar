@@ -37,17 +37,18 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Colors.white.withOpacity(0.8),
         ),
         child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
-              Icon(
-                icon,
-                color: Colors.black.withOpacity(0.5),
-              ),
-              Text(
-                label,
-                style: const TextStyle(fontWeight: FontWeight.bold),
-              ),
-            ]),
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            Icon(
+              icon,
+              color: Colors.black.withOpacity(0.5),
+            ),
+            Text(
+              label,
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
       ),
     );
   }
