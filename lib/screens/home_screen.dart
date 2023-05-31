@@ -27,9 +27,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return BottomNavigationBarItem(
       backgroundColor: color,
       icon: Icon(icon),
-      label: label,
+      label: '__ $label __',
       activeIcon: Container(
-        width: 120,
+        width: 100,
         margin: const EdgeInsets.only(top: 4),
         padding: const EdgeInsets.only(top: 10, right: 10, bottom: 10),
         decoration: BoxDecoration(
